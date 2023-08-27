@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marilaine Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+        <div class="container">
+        <input type="checkbox" id="menu" class="container--botao">
+        <label for="menu">
+        <span class="cabecalho_menu_hamburguer container_imagem"></span>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu-titulo">Categorias</li>
+            <li class="lista-menu-item">
+            <a href="#" class="lista_menu-link">Lanches</a>
+            </li>
+
+            <li class="lista-menu-item">
+            <a href="#" class="lista_menu-link">Porções</a>
+            </li>
+            <li class="lista-menu-item">
+            <a href="#" class="lista_menu-link">Cardápio</a>
+            </li>
+            <li class="lista-menu-item">
+            <a href="#" class="lista_menu-link">Opções</a>
+            </li>                        
+        </ul>
+            <img class="capalogo" src="img/capalogo.avif" alt="logo">
+        </div>
+
+            <div class="container">
+            <a href="#"><img src="img/Compras.svg" alt="Compras" class="container_imagem"></a>
+            <a href="#"><img src="img/Favoritos.svg" alt="Favoritos" class="container_imagem"></a>
+            <a href="#"><img src="img/Perfil.svg" alt="Usuario" class="container_imagem"></a>
+            </div>
+        </header>
+        <section class="banner">
+            <h2 class="banner__titulo">Lanches Marilaine</h2>
+            <p class="banner__texto">Tudo do bom e do melhor</p>
+            <input type="search" class="banner_pesquisa" placeholder="Faça seu pedido!">
+        </section>
+
+
+
+        
+        <section class="carrossel">
+            <h2 class="carrossel-titulo">Destaques do dia</h2>
+            <!-- Slider main container -->
+            <div class="carrossel_container"> 
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/lanche1.PNG" alt="1"></div>
+            <div class="swiper-slide"><img src="img/lanche2.PNG" alt="2"></div>
+            <div class="swiper-slide"><img src="img/lanche2.PNG" alt="3"></div>
+            <div class="swiper-slide"><img src="img/lanche4.PNG" alt="4"></div>
+
+            ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            </div>
+            
+        <div class="card">
+            <!--1 linha-->
+            <div class="card_descricao">
+                <!--1 coluna-->
+                <div class="descricao">
+                    <h3 class="descricao_titulo">Promoção BIG LANCHE</h3>
+                    <h2 class="descricao_titulo-2">POR APENAS R$19,99</h2>
+                    <p class="descricao_texto">Garanta já o seu
+                    </p>
+                </div>
+                <!--2 coluna-->
+                <img src="img/big lanche.webp" alt="descricao" class="descricao_imagem">
+            </div>
+
+            <!--2 linha-->
+            <div class="card_botoes">
+                <!--1 coluna-->
+                <ul class="botoes">
+                    <li class="botoes_item"><img src="img/Favoritos.svg" alt="Favoritos"></li>
+                    <li class="botoes_item"><img src="img/Compras.svg" alt="Compras"></li>
+                </ul>
+                <!--2 coluna-->
+                <a href="#" class="botoes_ancora">Saiba mais...</a>
+            </div>
+        </div>
+    </div>
+
+        </section>
+
+ 
+    
+    <section class="topicos">
+        <h2 class="topicos_titulo">Lanches mais vendidos</h2>
+        <ul class="topicos_lista">
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Mc Lanche Feliz</a>            
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">X-tudão</a>            
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">X-cachorro</a>            
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Mc Hambúrguer</a>            
+            </li>
+        </ul>
+    </section>
+
+
+    <section class="contato">
+        <h2 class="contato_titulo">Não perca!</h2>
+        <p class="contato_texto">Fique por dentro das informações.</p>
+        <input type="email" placeholder="Cadastrar e-mail" class="contato_email">
+    </section>
+
+    <hr/>
+
+    <footer class="rodapé">
+        <h2 class="rodapé_titulo">Faça seu pedido</h2>
+
+        <ul class="lista_rodapé">
+            <li class="lista_rodapé_titulo">Pedidos</li>
+                <li class="lista_rodapé_item">
+                    <img src="img/CasaDoCodigo.png" alt="Marilaine Lanches">
+                    <a href="#" class="lista_rodapé_link">Marilaine Lanches</a>
+                </li>
+
+                <li class="lista_rodapé_item">
+                    <img src="img/Caelum.png" alt="Burguer">
+                    <a href="#" class="lista_rodapé_link">Burguer</a>
+                </li>
+        </ul>
+
+
+        <ul class="lista_rodapé">
+            <li class="lista_rodapé_titulo">Hambúrguer</li>
+            <li class="lista_rodapé_item">
+                <img src="img/Alura.png" alt="Alura">
+                <a href="#" class="lista_rodapé_link">Alura</a>
+            </li>
+
+
+            <li class="lista_rodapé_item">
+                <img src="img/AluraLatam.png" alt="LATAM">
+                <a href="#" class="lista_rodapé_link">LATAM</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/AluraStart.png" alt="Start">
+                <a href="#" class="lista_rodapé_link">Start</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/MusicDot.png" alt="MusicDot">
+                <a href="#" class="lista_rodapé_link">MusicDot</a>
+            </li>
+
+
+            <li class="lista_rodapé_item">
+                <img src="img/PM3.png" alt="PM3">
+                <a href="#" class="lista_rodapé_link">PM3</a>
+            </li>
+        </ul>
+
+
+
+        <ul class="lista_rodapé">
+            <li class="lista_rodapé_titulo">Grupos</li>
+            <li class="lista_rodapé_item">
+                <img src="img/HipstersTech.png" alt="Alura">
+                <a href="#" class="lista_rodapé_link">Hipsters</a>
+            </li> 
+
+            <li class="lista_rodapé_item">
+                <img src="img/Scuba.png" alt="Alura empresa">
+                <a href="#" class="lista_rodapé_link">Scuba Dev</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/Layers.png" alt="Alura">
+                <a href="#" class="lista_rodapé_link">Layers</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/LikeABoss.png" alt="Alura">
+                <a href="#" class="lista_rodapé_link">Like a boss</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/GUJ.png" alt="Alura">
+                <a href="#" class="lista_rodapé_link">GUJ</a>
+            </li>
+        </ul>
+        
+
+    </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+            },
+            });
+
+        </script>
+
+
+    </body>
+
+</html>
